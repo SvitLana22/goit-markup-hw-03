@@ -16,6 +16,11 @@ background-color: var(--main-white-color);
 color: var(--text-color);
 font-family: "Roboto", sans-serif ;
 }
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .list {
     list-style: none;
 }
@@ -53,6 +58,9 @@ font-family: "Roboto", sans-serif ;
 .header .container {
     display: flex;
     align-items: center;
+}
+.header {
+    border-bottom: 1px solid #ECECEC;
 }
 .logo {
     margin-right: 93px ;
@@ -136,7 +144,7 @@ font-family: "Roboto", sans-serif ;
     text-transform: uppercase;
     color: var(--main-white-color);
     margin-bottom: 30px;
-    width: 96px;
+    width: 696px;
     margin-left: auto;
     margin-right: auto;
     
@@ -195,7 +203,7 @@ font-family: "Roboto", sans-serif ;
     justify-content: center; 
     display: flex;
 }
-.flex-basist:
+/* .flex-basist: */
 .work-item + .work-item {
     margin-left: 30px;
 }
@@ -205,8 +213,6 @@ font-family: "Roboto", sans-serif ;
 /* -----------TEAM-----------*/
 .team {
     background-color: #F5F4FA;
-}
-.team {
     padding: 94px 0;
 }
 .team-title{
@@ -217,6 +223,10 @@ font-family: "Roboto", sans-serif ;
 }
 .team-item {
     background-color: var(--main-white-color);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-item+.team-item {
+    margin-left: 30px;
 }
 .team-top-text {
     font-weight: 500;
@@ -287,16 +297,20 @@ font-family: "Roboto", sans-serif ;
     padding: 94px 0;
 }
 .portfolio .container {
-    display: flex;
-    flex-wrap: wrap; 
     align-items: center;
 }
 .filter-list {
-    margin-bottom: 50px;
     display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.filter-list .filter-item+.filter-item {
+    margin-left: 8px;
 }
 .filter-btn {
-    display: inline-block;
+    font-style: normal;
+    border: none;
+    border-radius: 4px;
     text-align: center;
     cursor: pointer;
     padding: 6px 22px;
@@ -316,19 +330,18 @@ color: var(--main-white-color);
 .content-list {
     display: flex;
     flex-wrap: wrap;
-    mar
-    
+    margin: -15px;
 }
 .content-item {
-    width:calc((100%-90px) / 3);
-    margin left: 30px;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
     margin-bottom: 30px;
-}
-.content-item:nth-child(3n) {
-    margin-right: 0;
 }
 .content-item:nth-last-child(-n+3) {
     margin-bottom: 0;
+}
+.content-card {
+    border: 1px solid #EEEEEE;
 }
 .content-top-text {
     font-weight: 700;
