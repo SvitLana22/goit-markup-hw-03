@@ -175,9 +175,7 @@ img {
 .about-item:not(:last-child) {
     margin-right: 30px;
 }
-.about-item {
-    /* width: 270px; */
-}
+
 .about-top-text {
     font-weight: 700;
     font-size: 14px;
