@@ -62,8 +62,8 @@ img {
 .header {
     border-bottom: 1px solid #ECECEC;
 }
-.heder-logo-web {
-    margin-right: 93px ;
+.header-logo-web {
+    margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
     color:var(--accent-color);
@@ -249,27 +249,35 @@ img {
 /* -----------FOOTER-----------*/
 .footer {
     background-color: #2F303A;
-    padding: 60px 0;
+    
+} 
+.footer .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo-web {
-    padding-top: 24px;
-        padding-bottom: 25px;
-        color: var(--accent-color);
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .footer .logo {
     display: block;
     margin-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
 }
 .footer-logo {
     color: var(--main-white-color);
 }
 .address {
     font-style: normal;
+}
+.address-list {
+    margin-top: 20px;
 }
 .address-item:not(:last-child) {
     margin-bottom: 9px;
