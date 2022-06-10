@@ -249,12 +249,10 @@ img {
 /* -----------FOOTER-----------*/
 .footer {
     background-color: #2F303A;
-    
-} 
-.footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
-}
+} 
+
 .footer-logo-web {
     color: var(--accent-color);
     font-family: 'Raleway';
@@ -275,8 +273,6 @@ img {
 }
 .address {
     font-style: normal;
-}
-.address-list {
     margin-top: 20px;
 }
 .address-item:not(:last-child) {
